@@ -24,7 +24,7 @@ get_header(); ?>
 			<?php if ( $default_sidebar_position === 'no' ) : ?>
 				<div class="col-md-12 wp-bp-content-width">
 			<?php else : ?>
-				<div class="col-md-8 wp-bp-content-width">
+				<div class="col-md-12 wp-bp-content-width">
 			<?php endif; ?>
 
 				<div id="primary" class="content-area">
