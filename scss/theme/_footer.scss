@@ -1,0 +1,30 @@
+.footer {
+    padding: 0px 0 20px 0;
+    background-color: $yellow;
+}
+
+#teezr-footer{
+  height: 100px;
+}
+
+  @media (max-width: 640px) {
+      #teezr-footer {
+        height: 70px !important;
+      }
+    }
+
+#footer-lijn{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #000;
+}
+
+@media (max-width: 640px) {
+    #footer-lijn {
+      margin-top: 0px;
+      margin-bottom: 10px;
+      border: 0;
+      border-top: 2px solid #000;
+    }
+  }
