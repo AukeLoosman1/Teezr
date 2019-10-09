@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 
 	<head>
-		
+
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,7 @@
 	</head>
 
 	<body>
-	
+
 		<header>
 			<nav class="main-navigation navbar navbar-expand-lg navbar-dark bg-dark">
 				<div class="site-branding-text text-white">
