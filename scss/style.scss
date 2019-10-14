@@ -1,1 +1,9 @@
-@import "./theme/colors.scss";            // <-------- Theme colors
+<<<<<<< HEAD
+@import "./theme/_colors.scss";            // <-------- Theme colors
+@import "./theme/_header.scss";
+@import "./theme/footer.scss";             // <-------- Header colors
+
+=======
+@import "./theme/colors";            // <-------- Theme colors
+@import "./theme/teezrtv";            // <-------- teezrtv style
+>>>>>>> Jurre
