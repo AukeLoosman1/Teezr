@@ -32,8 +32,10 @@
 							?>
 							</div>
 						</div>
-
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<div>
+							<?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
+						</div>
+						<button class="position-absolute navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 					</nav>
