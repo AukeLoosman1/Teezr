@@ -3,7 +3,7 @@
 			<div class="container">
 					<div class="row">
 						<div class="mx-auto text-center">
-							<img src="\wordpress\wp-content\themes\Teezr\assets\img\teezr-footer.png" id="teezr-footer" alt="">
+							<img src="/teezr/wordpress/wp-content/themes/Teezr/assets/img/teezr-footer.png" id="teezr-footer" alt="">
 						</div>
 					</div>
 					<hr id="footer-lijn">
