@@ -1,0 +1,29 @@
+#teezr-logo{
+  height: 120px;
+  z-index: 500;
+  margin-bottom: 1.5rem;
+  background-color: $white;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out ;
+  -ms-transition: all 1s ease-in-out ;
+  -o-transition: all 1s ease-in-out ;
+  transition: all 1s ease-in-out ;
+}
+
+@media (max-width: 640px) {
+    #teezr-logo {
+      height: 70px !important;
+    }
+  }
+
+.shrink{
+   height: 80px !important;
+}
+
+#sticky-nav {
+  background-color: $white;
+  z-index: 500;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
