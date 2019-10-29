@@ -137,3 +137,7 @@ function wp_bootstrap_4_widgets_init() {
     ) );
 }
 add_action( 'widgets_init', 'wp_bootstrap_4_widgets_init' );
+
+add_image_size( 'category-thumb', 5000, 230 ); //300 pixels wide (and unlimited height)
+
+add_image_size( 'lesvdwmobile', 100, 100 );

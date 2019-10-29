@@ -44,30 +44,12 @@ $photo-height: 230px;
   }
 }
 
-
-.photo-zoom-boss {
-  outline: 0;
-  overflow: hidden;
-  position: relative;
-  display: block;
-  height: $photo-height;
-
-  img{
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    width: 100%;
-    height: auto;
-    transform: translate(-50%, -50%);
-
-    [class*="-1"]:not([class*="-10"]):not([class*="-11"]):not([class*="-12"]) &,
-    [class*="-2"] &,
-    [class*="-3"] & {
-      width: auto;
-      height: 100%;
-    }
-  }
+.photo-zoom-boss{
+    display:block;
+    margin:auto;
+    width: 100% !important;
 }
+
 
 
 
@@ -131,13 +113,25 @@ $photo-height: 230px;
 // }
 /*PEN STYLES*/
 
-
-  .photo {
+  .photo-lesvdw{
+    height:100px;
+    width:100px;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 16px;
+
+  }
+
+  .photo {
+    height:100px;
+    width:100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 16px;
     background-size: cover;
     background-position: center;
     transition: transform .2s;
@@ -252,8 +246,14 @@ height: 100px;
 }
 
 #centered {
-    top: 80%;
-    left: 35%;
+    top: 90%!important;
+    left: 35%!important;
     transform: translate(-50%,-50%);
+    color: $black !important;
+}
+
+#centeredlvdw {
+    top: 40% !important;
+    left: 1% !important;
     color: $black !important;
 }

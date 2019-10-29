@@ -19,16 +19,19 @@ get_header();
 
 ?>
 
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>nfdalfkdsajfkldasfjklsdjfasljflk;dsfjlkasdfjkslajfdlskjfdslkfjdsalkfjdslkds</h1>
-  </body>
-</html>
+	<div class="container">
+		<h5><strong>DE NIEUWSTE </strong>VIDEO'S</h5>
+		<?php echo do_shortcode("[pt_view id=911c2b1b92]"); ?>
+	</div>
+<hr>
+	<div class="container">
+		<h5><strong>NEEM </strong>HIER EVEN DE TIJD VOOR</h5>
+		<?php echo do_shortcode("[pt_view id=457ca39mcv]"); ?>
+	</div>
+<hr>
+	<div class="container">
+		<h5><strong>VLOGS</strong></h5>
+		<?php echo do_shortcode("[pt_view id=2b0bd3fdex]"); ?>
+	</div>
 
 <?php get_footer(); ?>
