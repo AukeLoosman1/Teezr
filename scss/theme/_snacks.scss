@@ -1,0 +1,44 @@
+// snacks homepage cards
+.cover-card {
+	// background: no-repeat center top !important;
+	background-size: cover !important;
+	border: 5px solid $white;
+	padding: 0px;
+	margin: 0px;
+	height: 300px;
+}
+
+.cover-card > p {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 1rem;
+}
+
+.cover-card > a {
+	color: $white;
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+.cover-card > a:hover {
+	background-color: $black_snacks_hover;
+	color: $white;
+	text-shadow: 3px 3px 8px $black;
+	text-decoration: none;
+}
+
+.cover-card:hover > p {
+	background-color: $black_snacks_hover;
+	color: $white;
+	text-shadow: 3px 3px 8px $black;
+}
+
+.nopadding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
