@@ -19,6 +19,7 @@ get_header();
 
 ?>
 
+
 	<div class="container">
 		<h5><strong>DE NIEUWSTE </strong>VIDEO'S</h5>
 		<?php echo do_shortcode("[pt_view id=911c2b1b92]"); ?>
